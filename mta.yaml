@@ -12,3 +12,12 @@ modules:
    type: html5
    path: Hello
 
+
+ 
+
+
+resources:
+ - name: hdi_demotable
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
